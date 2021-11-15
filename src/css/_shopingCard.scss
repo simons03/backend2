@@ -1,0 +1,38 @@
+.ShopingCard {
+
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+
+  width: 26rem;
+  margin: 0.5rem 0.5rem;
+  
+  a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .price {
+    color: red;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.295) !important;
+
+  }
+}

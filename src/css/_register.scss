@@ -1,0 +1,23 @@
+.Register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ErrorMsg {
+    color: red;
+    font-size: 1.3rem;
+  }
+}
+
+.Register .formHolder{
+  width: 50%;
+  margin: auto;
+  padding: 2rem;  
+  border-radius: 0.6rem;
+
+}
+
+.Register .button-holder {
+  justify-content: space-between;
+  align-items: center;
+}

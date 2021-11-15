@@ -1,0 +1,34 @@
+.Cart {
+
+  .block1,.block2 {
+    width: 50%;
+    min-height: 80vh;
+  }
+
+
+  .block2 {
+    .orderInfo {
+      width: 50%;
+      margin: auto;
+    }
+
+
+    .placeOrder {
+      background-color: black;
+      color: #fff;
+      padding: 1rem;
+      border: 1px solid transparent;
+    }
+    .placeOrder:hover {
+      background-color: rgb(37, 37, 37);
+    }
+    .klarna {
+      height: 6rem;
+    }
+    .swish {
+      height: 5rem;
+    }
+  }
+
+
+}

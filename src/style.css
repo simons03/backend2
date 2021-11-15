@@ -1,0 +1,301 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.is-active {
+  text-decoration: underline;
+}
+
+.fullpage {
+  min-height: calc(100vh - 110px);
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}
+
+.checkColor {
+  background-color: #ecf694;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 768px) {
+  .fullpage {
+    min-height: calc(100vh - 110px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .fullpage {
+    min-height: calc(100vh - 122px);
+  }
+}
+
+#NavbarLogga {
+  height: 2.2rem;
+}
+
+.navbar a {
+  padding: 0.3rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar .hej {
+  top: 7px !important;
+  left: 90% !important;
+}
+
+.Shop .noProducts {
+  color: red;
+}
+
+.Login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Login .logginErrorMessage {
+  color: red;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.Login .formHolder {
+  width: 25%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+
+.Login .button-holder {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Register .ErrorMsg {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.Register .formHolder {
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+
+.Register .button-holder {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ShopingCard {
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  width: 26rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.ShopingCard a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.ShopingCard .price {
+  color: red;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.ShopingCard:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.295) !important;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.295) !important;
+}
+
+.ProductDetails img {
+  height: 35rem;
+}
+
+.ProductDetails div div h3 {
+  font-size: 2rem;
+}
+
+.ProductDetails div div p {
+  font-size: 1.2rem;
+}
+
+.ProductDetails div div div .Price {
+  font-size: 2.6rem;
+  color: red;
+  font-weight: bold;
+}
+
+.Cart .block1, .Cart .block2 {
+  width: 50%;
+  min-height: 80vh;
+}
+
+.Cart .block2 .orderInfo {
+  width: 50%;
+  margin: auto;
+}
+
+.Cart .block2 .placeOrder {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid transparent;
+}
+
+.Cart .block2 .placeOrder:hover {
+  background-color: #252525;
+}
+
+.Cart .block2 .klarna {
+  height: 6rem;
+}
+
+.Cart .block2 .swish {
+  height: 5rem;
+}
+
+.CartCard .cardBody {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.CartCard .cardBody p {
+  font-size: 2rem;
+}
+
+.CartCard .cardBody img {
+  height: 7rem;
+}
+
+.CartCard .cardBody div h4 {
+  font-size: 1.2rem;
+}
+
+.CartCard .cardBody div button {
+  margin-left: 0.1rem;
+}
+
+.AdminUsers table {
+  width: 100%;
+}
+
+.AdminUsers table tr th {
+  font-size: 1.4rem;
+}
+
+.UsersCard td {
+  font-size: 1.4rem;
+  padding: 0.3rem 0;
+}
+
+.AddNewProduct .table {
+  width: 100%;
+}
+
+.AdminProductsCard img {
+  height: 5rem;
+}
+
+.AdminOrders .table {
+  width: 100%;
+}
+
+.OrderDetails .block {
+  width: 50%;
+  min-height: 70vh;
+}
+
+.OrderDetails .block .infoHolder {
+  width: 70%;
+  margin: auto;
+}
+
+.OrderDetailsCard img {
+  height: 4rem;
+}
+
+.AdminOrdersCard {
+  cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.AdminOrdersCard:hover {
+  background-color: #e6e6e6;
+}

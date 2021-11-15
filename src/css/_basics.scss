@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+.is-active {
+  text-decoration: underline;
+}
+
+.fullpage {
+  min-height: calc(100vh - 110px)
+}
+.greenText {
+  color: green;
+}
+.redText {
+  color: red;
+}
+.checkColor {
+  background-color: rgb(236, 246, 148);
+}
+.underline {
+  text-decoration: underline;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+@media (min-width: 768px){
+  .fullpage {
+    min-height: calc(100vh - 110px)
+  }
+}
+
+@media (min-width: 1200px){
+  .fullpage {
+    min-height: calc(100vh - 122px)
+  }
+}
+
